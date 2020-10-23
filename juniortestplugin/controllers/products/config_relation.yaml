@@ -1,0 +1,7 @@
+category:
+    label: Раздел
+    view:
+        form: $/ivanovivan/juniortestplugin/models/category/columns.yaml
+    manage:
+        form: $/ivanovivan/juniortestplugin/models/category/fields.yaml
+        list: $/ivanovivan/juniortestplugin/models/category/columns.yaml

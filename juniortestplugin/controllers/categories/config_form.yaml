@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Category
+
+# Model Form Field configuration
+form: $/ivanovivan/juniortestplugin/models/category/fields.yaml
+
+# Model Class name
+modelClass: IvanovIvan\JuniorTestPlugin\Models\Category
+
+# Default redirect location
+defaultRedirect: ivanovivan/juniortestplugin/categories
+
+# Create page
+create:
+    title: Create Category
+    redirect: ivanovivan/juniortestplugin/categories/update/:id
+    redirectClose: ivanovivan/juniortestplugin/categories
+
+# Update page
+update:
+    title: Edit Category
+    redirect: ivanovivan/juniortestplugin/categories
+    redirectClose: ivanovivan/juniortestplugin/categories
+
+# Preview page
+preview:
+    title: Preview Category

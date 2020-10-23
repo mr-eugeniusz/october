@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Product
+
+# Model Form Field configuration
+form: $/ivanovivan/juniortestplugin/models/product/fields.yaml
+
+# Model Class name
+modelClass: IvanovIvan\JuniorTestPlugin\Models\Product
+
+# Default redirect location
+defaultRedirect: ivanovivan/juniortestplugin/products
+
+# Create page
+create:
+    title: Create Product
+    redirect: ivanovivan/juniortestplugin/products/update/:id
+    redirectClose: ivanovivan/juniortestplugin/products
+
+# Update page
+update:
+    title: Edit Product
+    redirect: ivanovivan/juniortestplugin/products
+    redirectClose: ivanovivan/juniortestplugin/products
+
+# Preview page
+preview:
+    title: Preview Product
